@@ -1,0 +1,68 @@
+h1{
+    background: green;
+}
+.div1
+{
+    width: 33%;
+    float: left;
+}
+.content1 {
+    width: 1440px;
+    height: 550px;
+}
+.left {
+    float: left;
+    position: relative;
+    width: 33%;
+    height: auto;
+}
+.right {
+ 
+    position: relative;
+    float: left;
+    width: 33%;
+    height: auto;
+}
+@media (max-width: 600px){
+ #FA {
+     width: 100%;
+        
+    }
+@media (min-width: 601) and (max-width: 1200)  {
+   #DP{
+    width: 50%;   
+    float: left;
+   }
+   #FA{
+       width: auto;
+   }
+   #EL{
+       width: 100%;
+   }
+    }
+  @media (min-width: 1200) {
+    .div1
+    {
+        width: 33%;
+        float: left;
+    }
+    .content1 {
+        width: 1440px;
+        height: 550px;
+    }
+    .left {
+     
+        float: left;
+        position: relative;
+        width: 33%;
+        height: auto;
+    }
+    .right {
+        position: relative;
+        float: left;
+        width: 33%;    
+        height: auto;
+    }
+
+  }
+}
